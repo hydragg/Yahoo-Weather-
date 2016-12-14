@@ -44,6 +44,10 @@ $(function() {
                     weatherText = "晴天";
                     weatherIcon = "wi-day-sunny";
                     break;
+		default:
+                    weatherText = '多雲';
+                    weatherIcon = 'wi-cloudy';
+                    break; 
             }
             return [weatherText, weatherIcon];
         };
